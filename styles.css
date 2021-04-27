@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    min-height: 100vh;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: rgba(0,0,0,0.95);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin: 1.5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 1.25rem;
+    text-transform: uppercase;
+}
+
+header a:hover{
+color: red;
+}
+
+h1{
+    margin-top: 6.5rem;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+article{
+    margin: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: auto;
+    width: 100vw;
+    background: rgba(0,0,0,0.95);
+    color: white;
+}
+
+footer a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer a:hover{
+    color: darkred;
+}
+
+@media screen {
+    
+}
